@@ -41,14 +41,14 @@ export const generateAndSendOTP = async (email) => {
     port: 465,
     secure: true,
     auth: {
-      user: "itsmefaizan4@gmail.com",
-      pass: "csrrd5245sryugczad",
+      user: "nsmc21129nitw@gmail.com",
+      pass: "usch khfq irmx xqqj",
     },
   });
 
   // Construct email message
   const mailOptions = {
-    from: "itsmefaizan4@gmail.com",
+    from: "nsmc21129nitw@gmail.com",
     to: email,
     subject: "OTP Verification",
     text: `Your OTP to create account is: ${otp}`,
